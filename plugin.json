@@ -1,5 +1,6 @@
 {
   "name": "codex",
+  "version": "0.0.1"
   "description": "Manage your development environment away from your code repository",
   "packages": [],
   "env": {},
