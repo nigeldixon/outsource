@@ -1,0 +1,14 @@
+{
+  "name": "codex",
+  "description": "Manage your development environment away from your code repository",
+  "packages": [],
+  "env": {},
+  "create_files": {
+    "{{ .Virtenv }}/gitexclude.sh": "scripts/gitexclude.sh"
+  },
+  "shell": {
+    "script": {
+      "exclude": "{{ .Virtenv }}/gitexclude.sh"
+    }
+  }
+}
